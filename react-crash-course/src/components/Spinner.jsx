@@ -16,7 +16,7 @@ const Spinner = ({ loading }) => {
             color='#4338CA'
             loading={loading}
             cssOverride={override}
-            size={50}
+            size={25}
             />
         </>
     )
