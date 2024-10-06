@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        sans: ['Roboto', 'sans-serif']
+        sans: ['Roboto', 'sans-serif'],
+        mate: ['Mate','serif']
       },
       gridTemplateColumns:{
         '70/30': '70% 28%',
