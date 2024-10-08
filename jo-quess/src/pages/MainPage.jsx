@@ -1,7 +1,13 @@
+import Propos from "../components/Propos";
+import ServiceList from "../components/ServiceList";
+
 const MainPage = () => {
   return (
-    <div>MainPage</div>
-  )
-}
+    <div>
+      <ServiceList />
+      <Propos />
+    </div>
+  );
+};
 
-export default MainPage
+export default MainPage;
