@@ -5,7 +5,9 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <main className="mt-24 bg-[#F2F2F2]">
+        <Outlet />
+      </main>
     </>
   );
 };

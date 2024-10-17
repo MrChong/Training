@@ -1,11 +1,13 @@
 import Propos from "../components/Propos";
 import ServiceList from "../components/ServiceList";
+import Intro from "../components/Intro";
 
 const MainPage = () => {
   return (
     <div>
-      <ServiceList />
+      <Intro/>
       <Propos />
+      <ServiceList />
     </div>
   );
 };
