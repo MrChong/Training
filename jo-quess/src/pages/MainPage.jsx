@@ -4,7 +4,7 @@ import Intro from "../components/Intro";
 
 const MainPage = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Intro/>
       <Propos />
       <ServiceList />

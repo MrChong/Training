@@ -1,11 +1,23 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import bgPicture from "../assets/background.jpg";
 
 const MainLayout = () => {
+
   return (
     <>
       <Navbar />
-      <main className="mt-24 bg-[#F2F2F2]">
+      <main
+        style={{
+          backgroundImage: `url(${bgPicture})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "scroll",
+          marginTop: "6rem",
+        }}
+        className="h-full"
+      >
         <Outlet />
       </main>
     </>
