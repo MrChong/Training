@@ -16,7 +16,7 @@ const MainLayout = () => {
           backgroundAttachment: "scroll",
           marginTop: "6rem",
         }}
-        className="h-full"
+        className="h-100%"
       >
         <Outlet />
       </main>

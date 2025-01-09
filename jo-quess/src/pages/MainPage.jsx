@@ -1,6 +1,7 @@
 import Propos from "../components/Propos";
 import ServiceList from "../components/ServiceList";
 import Intro from "../components/Intro";
+import Footer from "../components/Footer";
 
 const MainPage = () => {
   return (
@@ -8,6 +9,7 @@ const MainPage = () => {
       <Intro/>
       <Propos />
       <ServiceList />
+      <Footer />
     </div>
   );
 };

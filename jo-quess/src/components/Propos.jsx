@@ -2,8 +2,8 @@ import profilPicture from "../assets/profilPicture.jpg";
 
 const Propos = () => {
   return (
-    <div className="bg-[#f5f5f5]/80">
-      <div className="flex flex-col md:flex-row justify-between items-center mt-8 py-8 md:my-8 md:mx-8 lg:mx-12">
+    <div className="bg-[#f5f5f5]/70">
+      <div className="flex flex-col md:flex-row justify-evenly items-center md:my-16 md:mx-8 lg:mx-12">
         <img
           src={profilPicture}
           alt="Profile Picture can't load"
