@@ -2,6 +2,7 @@ import Propos from "../components/Propos";
 import ServiceList from "../components/ServiceList";
 import Intro from "../components/Intro";
 import Footer from "../components/Footer";
+import QuestionList from "../components/QuestionList";
 
 const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ const MainPage = () => {
       <Intro/>
       <Propos />
       <ServiceList />
+      <QuestionList/>
       <Footer />
     </div>
   );

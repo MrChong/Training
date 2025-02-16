@@ -9,7 +9,7 @@ const Navbar = () => {
         <Button
           url="https://www.gorendezvous.com/en/josiannequessy"
           text="Prendre rendez-vous"
-          style="text-[#F5F5F5]/90 bg-[#be7a0e] hover:bg-[#ab6d0c] font-medium text-lg"
+          style="text-[#F5F5F5]/90 bg-[#be7a0e] hover:bg-[#ab6d0c] font-medium text-md md:text-lg"
         />
       </div>
     </nav>

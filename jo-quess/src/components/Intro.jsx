@@ -1,4 +1,3 @@
-import Button from "./Button";
 
 const Intro = () => {
   return (
@@ -6,10 +5,6 @@ const Intro = () => {
         <h1 className="text-[#464646] text-4xl font-bold">
         Lorem ipsum dolor sit amet <br/> consectetur adipiscing elit
         </h1>
-        {/*<Button
-          text="Contactez-moi"
-          style="text-[#F5F5F5]/90 border-2 border-[#be7a0e] font-medium text-lg mt-3"
-        />*/}
       </div>
   );
 };
