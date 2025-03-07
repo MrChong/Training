@@ -8,16 +8,12 @@ const MainLayout = () => {
     <>
       <Navbar />
       <main
-        style={{
-          backgroundImage: `url(${bgPicture})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "scroll",
-          marginTop: "6rem",
-        }}
-        className="h-100%"
+        className="relative h-full min-h-screen mt-[6rem] overflow-hidden"
       >
+        {/* Blurred Background Layer */}
+        <div className="absolute inset-0 bg-cover bg-fixed bg-no-repeat bg-left-top blur-[2px] opacity-99 z-[-1]" 
+          style={{ backgroundImage: `url(${bgPicture})` }}>
+        </div>
         <Outlet />
       </main>
     </>

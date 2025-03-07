@@ -2,7 +2,7 @@ import profilPicture from "../assets/profilPicture.jpg";
 
 const Propos = () => {
   return (
-    <div className="bg-[#f5f5f5]/70">
+    <div className="bg-[#f5f5f5]/95">
       <div className="flex flex-col md:flex-row justify-evenly items-center md:my-16 md:mx-8 lg:mx-12">
         <img
           src={profilPicture}
