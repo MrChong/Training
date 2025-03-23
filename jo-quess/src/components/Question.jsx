@@ -1,7 +1,19 @@
 import React from "react";
+import { useState } from "react";
+import { VscAdd,VscChromeMinimize } from "react-icons/vsc";
 
-const Question = () => {
-  return <div className="border-b boarder-dark boarder-solid boarder-r-0 boarder-1-0 boarder-t-0">Question</div>;
+
+const Question = ({faq}) => {
+  const [showAnswer,setShowAnswer] = useState(false);
+  
+  return <div className="mx-3">
+    <button className="flex flex-row w-full justify-between" onClick={() => setShowAnswer((prevState)=>!prevState)}>
+      <span>
+        {faq.question}
+      </span>
+    <VscAdd fontSize="30px" fontWeight="bold" />
+    </button>
+    </div>;
 };
 
 export default Question;
