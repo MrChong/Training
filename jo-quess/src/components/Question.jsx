@@ -4,7 +4,7 @@ import { VscAdd, VscChromeMinimize } from "react-icons/vsc";
 
 
 const Question = ({ faq }) => {
-  const [showAnswer, setShowAnswer] = useState(true);
+  const [showAnswer, setShowAnswer] = useState(false);
 
   return <div className="h-full px-5 py-2">
   <button
