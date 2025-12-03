@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import MainLayout from "./component/layout/MainLayout";
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Test
-        </a>
-      </header>
-    </div>
+<div className="min-h-screen bg-red-300">
+  <header>header</header>
+  <main><MainLayout/></main>
+</div>
   );
 }
