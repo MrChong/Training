@@ -1,11 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
 
-HighlightGrid.propTypes = {}
+HighlightGrid.propTypes = {};
 
-export default function HighlightGrid(){
-  return (
-    <div>HighlightGrid</div>
-  )
+export default function HighlightGrid() {
+  return <div>HighlightGrid</div>;
 }
-

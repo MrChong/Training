@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DashboardLayout(){
   return (
-    <div>DashboardLayout</div>
+    <div className="inside-boxes bg-slate-400">DashboardLayout</div>
   )
 }
 
