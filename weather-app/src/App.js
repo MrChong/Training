@@ -1,6 +1,7 @@
 import MainLayout from "./component/layout/MainLayout";
 
 export default function App() {
+  {/*#2a3444*/}
   return (
     <div className="min-h-screen bg-[#e2dc88]">
       {/*<header>header</header>*/}
