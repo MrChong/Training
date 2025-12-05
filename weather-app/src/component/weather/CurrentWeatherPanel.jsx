@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function CurrentWeatherPanel() {
-  return <div className="inside-boxes bg-slate-200">CurrentWeatherPanel</div>;
+  return <section id="current-weather"className="inside-boxes bg-gray-100 h-full">CurrentWeatherPanel</section>;
 }

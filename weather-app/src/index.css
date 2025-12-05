@@ -17,14 +17,15 @@ code {
 @layer components {
   .main-box {
     display: grid;
-    grid-template-columns: 1fr 2fr;        
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width: 75%;
+    height: 75%;
   }
-  .inside-boxes{
+  .inside-boxes {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
   }
 }
-
